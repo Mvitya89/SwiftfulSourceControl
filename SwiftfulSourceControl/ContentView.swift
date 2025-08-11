@@ -25,6 +25,8 @@ struct ContentView: View {
         .padding()
         .padding()
         .padding()
+        .padding()
+        
         
     }
 }
