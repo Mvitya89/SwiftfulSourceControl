@@ -9,6 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
+        @State private var addSomething: Bool = false
+        
         VStack {
             Image(systemName: "bolt.fill")
                 .font(.largeTitle)
