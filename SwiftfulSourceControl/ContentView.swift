@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var addSomething: Bool = false
+    @State private var doSoemthing: Bool = false
+    
     var body: some View {
         
-        @State private var addSomething: Bool = false
+        
+
         
         VStack {
             Image(systemName: "bolt.fill")
